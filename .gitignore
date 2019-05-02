@@ -1,0 +1,7 @@
+*.o
+*.suo
+*.user
+*.ncb
+*.sbr
+*.log
+.vscode/ipch/
