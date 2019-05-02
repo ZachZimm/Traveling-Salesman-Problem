@@ -1,10 +1,10 @@
 TARGET = proj7
-LIBS = -I /mnt/c/boost
+LIBS = -lm
 HEADERS = EdgeData.h	VertexData.h
 SRCS = main.cpp
 OBJECTS := $(patsubst %.cpp,%.o,$(SRCS))
 CXX = g++
-CXX_FLAGS = -Wall -std=c++11 
+CXX_FLAGS = -Wall -std=c++11 -I /mnt/c/boost
 
 .PHONY: default all clean
 

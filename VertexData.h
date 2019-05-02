@@ -3,4 +3,5 @@
 struct VertexData
 {
     std::string name;
+    bool visited;
 };
