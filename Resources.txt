@@ -1,2 +1,7 @@
 https://www.youtube.com/watch?v=GSp2531Wti4 - Great video on boost graph library
     - 9:02 - Dijkstra's Shortest Path discussion
+
+https://theboostcpplibraries.com/boost.graph-vertices-and-edges - Written guide regarding boost.graph
+    - Ch 31 - Vertices and Edges
+    - Ch 32 - Algorithms
+    - Ch 33 - Containers

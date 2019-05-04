@@ -1,7 +1,7 @@
 TARGET = proj7
 LIBS = -lm
-HEADERS = EdgeData.h	VertexData.h
-SRCS = main.cpp
+HEADERS = EdgeData.h	VertexData.h	Visitor.h
+SRCS = main.cpp	Visitor.cpp VertexData.cpp
 OBJECTS := $(patsubst %.cpp,%.o,$(SRCS))
 CXX = g++
 CXX_FLAGS = -Wall -std=c++11 -I /mnt/c/boost
